@@ -1,0 +1,26 @@
+<extension>
+  <modules>
+    <module>
+      <id>Angular 2 Tutorial Extension</id>
+      <auto-deploy>false</auto-deploy>
+      <evaluator type="default.extensibility.evaluator"/>
+      <configurations>
+        <config evaluator="string-compare" condition="WebFramework" replace="false">
+          <web-framework>
+            <dojo-pages> 
+                <packages> 
+                    <package name="blog" location="js/blog"/> 
+                </packages>
+            </dojo-pages>
+          </web-framework>
+        </config>
+      </configurations>
+      <customizations>
+        <customization>
+           <targetPackageRoot>org.alfresco.share.pages.faceted-search</targetPackageRoot>
+           <sourcePackageRoot>org.alfresco.share.pages.faceted-search.customization</sourcePackageRoot>
+        </customization>
+      </customizations>
+    </module>
+  </modules>
+</extension>
