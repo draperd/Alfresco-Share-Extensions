@@ -1,0 +1,16 @@
+<extension>
+  <modules>
+    <module>
+      <id>Aikau Data Lists Site Page</id>
+      <auto-deploy>true</auto-deploy>
+      <evaluator type="default.extensibility.evaluator"/>
+      <configurations>
+         <config evaluator="string-compare" condition="SitePages" replace="false">
+            <pages>
+               <page id="AikauDataLists">dp/ws/AikauDataLists</page>
+            </pages>
+         </config>
+      </configurations>
+    </module>
+  </modules>
+</extension>

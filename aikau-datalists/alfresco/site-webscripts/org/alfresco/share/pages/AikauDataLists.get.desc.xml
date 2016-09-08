@@ -1,0 +1,6 @@
+<webscript>
+  <shortname>Aikau Data Lists</shortname>
+  <description>This provides an example of building the a Data Lists page using the datalists.lib.js library file.</description>
+  <family>aikau-share-pages</family>
+  <url>/AikauDataLists</url>
+</webscript>
