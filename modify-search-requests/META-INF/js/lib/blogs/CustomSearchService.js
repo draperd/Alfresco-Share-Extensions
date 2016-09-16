@@ -4,10 +4,9 @@ define(["dojo/_base/declare",
 
   return declare([SearchService], {
     onSearchRequest: function(payload) {
-      payload.term = payload.term + ""              // You *could* append additional search terms
-      payload.datatype = "cm:content";              // Only search for nodes that are cm:content
-      payload.prop_mimetype = "application/msword"; // Only search for Word files
-      this.inherited(arguments); // This calls the superclass function
+      payload.term = '(' + payload.term + ') AND -TYPE:"cm:thumbnail" AND -TYPE:"cm:failedThumbnail" AND -TYPE:"cm:rating" AND -TYPE:"fm:post" AND -ASPECT:"sys:hidden" AND -cm:creator:system';
+      payload.datatype = "cm:content";
+      this.inherited(arguments);
     }
   });
 });
