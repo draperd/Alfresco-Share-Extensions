@@ -1,0 +1,26 @@
+<extension>
+  <modules>
+    <module>
+      <id>Modify Search Requests</id>
+      <auto-deploy>true</auto-deploy>
+      <evaluator type="default.extensibility.evaluator"/>
+      <configurations>
+        <config evaluator='string-compare' condition='WebFramework' replace='false'>
+          <web-framework>
+            <dojo-pages> 
+              <packages> 
+                <package name='blogs' location='js/lib/blogs'/>
+              </packages>
+            </dojo-pages>
+          </web-framework>
+        </config>
+      </configurations>
+      <customizations>
+        <customization>
+           <targetPackageRoot>org.alfresco.share.pages.faceted-search</targetPackageRoot>
+           <sourcePackageRoot>org.alfresco.share.pages.faceted-search.customization</sourcePackageRoot>
+        </customization>
+      </customizations>
+    </module>
+  </modules>
+</extension>
