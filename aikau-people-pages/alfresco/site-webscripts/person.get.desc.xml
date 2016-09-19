@@ -1,0 +1,6 @@
+<webscript>
+  <shortname>Person Page (Aikau implementation)</shortname>
+  <description>A potential replacement for the Profile page in Share</description>
+  <family>aikau-sample-pages</family>
+  <url>/aikau-person</url>
+</webscript>

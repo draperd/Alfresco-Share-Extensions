@@ -1,0 +1,6 @@
+<webscript>
+  <shortname>People Page (Aikau implementation)</shortname>
+  <description>A potential replacement for the People page in Share</description>
+  <family>aikau-sample-pages</family>
+  <url>/aikau-people</url>
+</webscript>
