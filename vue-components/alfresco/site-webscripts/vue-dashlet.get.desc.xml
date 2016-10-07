@@ -1,0 +1,6 @@
+<webscript>
+  <shortname>vue.js Dashlet</shortname>
+  <description>A dashlet rendered with Aikau and vue.js</description>
+  <family>dashlet</family>
+  <url>/aikau-vue-dashlet</url>
+</webscript>
