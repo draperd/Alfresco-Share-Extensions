@@ -1,0 +1,15 @@
+<extension>
+  <modules>
+    <module>
+      <id>Inline Advanced Search</id>
+      <auto-deploy>true</auto-deploy>
+      <evaluator type="default.extensibility.evaluator"/>
+      <customizations>
+        <customization>
+           <targetPackageRoot>org.alfresco.share.pages.faceted-search</targetPackageRoot>
+           <sourcePackageRoot>org.alfresco.share.pages.faceted-search.customization</sourcePackageRoot>
+        </customization>
+      </customizations>
+    </module>
+  </modules>
+</extension>
