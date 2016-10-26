@@ -1,0 +1,20 @@
+<extension>
+  <modules>
+    <module>
+      <id>V1 REST API services</id>
+      <auto-deploy>true</auto-deploy>
+      <evaluator type="default.extensibility.evaluator"/>
+      <configurations>
+        <config evaluator="string-compare" condition="WebFramework" replace="false">
+          <web-framework>
+            <dojo-pages> 
+                <packages> 
+                    <package name="blog" location="js/blog"/> 
+                </packages>
+            </dojo-pages>
+          </web-framework>
+        </config>
+      </configurations>
+    </module>
+  </modules>
+</extension>

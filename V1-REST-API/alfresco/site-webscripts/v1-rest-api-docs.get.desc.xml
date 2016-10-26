@@ -1,0 +1,6 @@
+<webscript>
+  <shortname>Documents via V1 REST API</shortname>
+  <description>Documents loaded from the V1 REST API</description>
+  <family>blogs</family>
+  <url>/v1-rest-api-docs</url>
+</webscript>
